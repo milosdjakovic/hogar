@@ -58,7 +58,7 @@ const Content = ({ currentMenu, storeInfo }) => {
     window.addEventListener('scroll', checkIfWindowIsOnTop, { passive: true });
 
     return () => {
-      window.removeEventListener('scroll', checkIfWindowIsOnTop, { passive: true })
+      window.removeEventListener('scroll', checkIfWindowIsOnTop)
     }
   }, [windowOnTop])
 
