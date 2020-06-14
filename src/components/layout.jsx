@@ -3,7 +3,10 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import { useSelector, useDispatch } from 'react-redux';
 
+import bricks from "../images/brickwall.png"
+
 import Header from "./header"
+import MobileMenu from './mobileMenu';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -35,9 +38,17 @@ const Layout = ({ children }) => {
 
       <Header />
 
-      {currentMenu.map((menuItem, i) => (
-        <p key={`${menuItem}_${i}`}>{menuItem.category}</p>
-      ))}
+      <MobileMenu
+        store={storeInfo.store}
+        categories={currentMenu}
+      />
+
+      <div style={{ backgroundImage: `url(${bricks})`, backgroundAttachment: 'fixed' }} className="flex flex-col items-stretch pt-12 text-gray-800">
+        {currentMenu.map((menuItem, i) => (
+          <p key={`${menuItem}_${i}`}>{menuItem.category}</p>
+        ))}
+
+      </div>
     </>
   )
 }
