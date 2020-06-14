@@ -1,30 +1,20 @@
-import React, { useEffect } from "react"
-import { useSelector, useDispatch } from 'react-redux'
+import React from "react"
 
-import Layout from "../components/layout"
+import Content from '../components/content';
 import SEO from "../components/seo"
 
 import hogarTwoMenu from '../data/hogar_two_menu.json';
 import businessDetails from '../data/business_details.json';
 
-const SecondPage = () => {
-  const currentMenu = useSelector(state => state.currentMenu)
-  const storeInfo = useSelector(state => state.storeInfo)
+const SecondPage = () => (
+  <>
+    <SEO title="HOGAR - 2" lang="sr" />
 
-  const dispatch = useDispatch()
-
-  useEffect(() => {
-    dispatch({ type: "SET_CURRENT_MENU", payload: hogarTwoMenu })
-    dispatch({ type: "SET_STORE_INFO", payload: businessDetails.hogarTwoDetails })
-  })
-
-  return (
-    <>
-      <SEO title="HOGAR - 2" lang="sr" />
-
-      {(currentMenu && storeInfo) && <Layout />}
-    </>
-  )
-}
+    <Content
+      storeInfo={businessDetails.hogarTwoDetails}
+      currentMenu={hogarTwoMenu}
+    />
+  </>
+)
 
 export default SecondPage

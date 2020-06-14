@@ -2,7 +2,6 @@ import { createStore } from 'redux';
 
 const initalState = {
   initialPageLoad: false,
-  currentMenu: [],
   mobileMenuVisible: false,
   menuItemInViewport: null,
   pageTransitionDuration: 300
@@ -14,12 +13,6 @@ function reducer(state = initalState, action) {
       return {
         ...state,
         initialPageLoad: action.payload,
-      }
-
-    case "SET_CURRENT_MENU":
-      return {
-        ...state,
-        currentMenu: action.payload
       }
 
     case "SET_STORE_INFO":

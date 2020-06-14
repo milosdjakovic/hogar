@@ -12,11 +12,11 @@ import SidebarNav from './sidebarNav';
 import MenuItem from './menuItem';
 import GoogleMap from './googleMap';
 import Footer from "./footer";
+import ScrollTopButton from './scrollTopButton';
+import PhoneCallButton from './phoneCallButton';
 
-const Layout = () => {
+const Content = ({ currentMenu, storeInfo }) => {
   const initialPageLoad = useSelector(state => state.initialPageLoad)
-  const currentMenu = useSelector(state => state.currentMenu)
-  const storeInfo = useSelector(state => state.storeInfo)
 
   const [windowOnTop, setWindowOnTop] = useState(true);
 
@@ -43,7 +43,7 @@ const Layout = () => {
 
       dispatch({ type: "SET_INITIAL_PAGE_LOADED", payload: true })
     }
-  }, [initialPageLoad, dispatch])
+  }, [dispatch, initialPageLoad])
 
   function checkIfWindowIsOnTop() {
     if (window.scrollY === 0) {
@@ -55,10 +55,10 @@ const Layout = () => {
 
   // Add scroll event listener
   useEffect(() => {
-    window.addEventListener('scroll', checkIfWindowIsOnTop);
+    window.addEventListener('scroll', checkIfWindowIsOnTop, { passive: true });
 
     return () => {
-      window.removeEventListener('scroll', checkIfWindowIsOnTop)
+      window.removeEventListener('scroll', checkIfWindowIsOnTop, { passive: true })
     }
   }, [windowOnTop])
 
@@ -88,7 +88,7 @@ const Layout = () => {
           gmapLink={storeInfo.gmapLink}
         />
 
-        <main className="flex flex-col max-w-4xl px-2 mx-auto sm:px-6">
+        <main className="flex flex-col flex-grow w-full max-w-4xl px-2 mx-auto sm:px-6">
           <div id="main-content" className="flex flex-col items-center md:items-start md:justify-between md:flex-row">
             <SidebarNav
               store={storeInfo.store}
@@ -113,9 +113,12 @@ const Layout = () => {
 
           </div>
         </main>
+
+        <ScrollTopButton windowOnTop={windowOnTop} />
+        <PhoneCallButton phoneNumber={storeInfo.phone} />
       </div>
     </>
   )
 }
 
-export default Layout
+export default Content
