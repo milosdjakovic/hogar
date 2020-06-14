@@ -20,7 +20,6 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
 
       <a href={`tel:{phone}`} className="ml-1 text-xl font-semibold hover:text-orange-500">
         {phone}
-        {console.log("phone", phone)}
       </a>
     </div>
 
