@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { useSelector, useDispatch } from 'react-redux';
 
 import Header from "./header"
 import "./layout.css"
@@ -23,9 +24,16 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const mobileMenuVisible = useSelector(state => state.mobileMenuVisible)
+  const dispatch = useDispatch()
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <button onClick={() => dispatch({ type: "TOGGLE_MOBILE_MENU", payload: !mobileMenuVisible })}>Toggle menu</button>
+      {mobileMenuVisible && <p>Mobile menu</p>}
+      {console.log("Layout -> mobileMenuVisible", mobileMenuVisible)}
+      
       <div
         style={{
           margin: `0 auto`,
