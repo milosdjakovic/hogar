@@ -1,10 +1,9 @@
 import React from "react"
-import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import { useSelector, useDispatch } from 'react-redux';
 
 import Header from "./header"
-import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,25 +17,29 @@ const Layout = ({ children }) => {
   `)
 
   const currentMenu = useSelector(state => state.currentMenu)
+  const storeInfo = useSelector(state => state.storeInfo)
   const mobileMenuVisible = useSelector(state => state.mobileMenuVisible)
-  
+
   const dispatch = useDispatch()
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <button onClick={() => dispatch({ type: "TOGGLE_MOBILE_MENU", payload: !mobileMenuVisible })}>Toggle menu</button>
-      {mobileMenuVisible && <p>Mobile menu</p>}
+      <Helmet>
+        <meta property="og:title" content="Hogar - Brza hrana" />
+        <meta property="og:site_name" content="Hogar" />
+        <meta property="og:url" content="www.hogar.rs" />
+        <meta property="og:description" content="Brza hrana, Aleksinac" />
+        <meta property="og:type" content="business.business" />
+        <meta property="og:image" content="http://www.hogar.rs/hogar-banner.jpg" />
+      </Helmet>
+
+      <Header />
 
       {currentMenu.map((menuItem, i) => (
         <p key={`${menuItem}_${i}`}>{menuItem.category}</p>
       ))}
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout
