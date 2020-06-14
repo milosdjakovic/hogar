@@ -7,6 +7,7 @@ import bricks from "../images/brickwall.png"
 
 import Header from "./header"
 import MobileMenu from './mobileMenu';
+import Hero from './hero';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -38,9 +39,19 @@ const Layout = ({ children }) => {
 
       <Header />
 
-      <MobileMenu
-        store={storeInfo.store}
-        categories={currentMenu}
+      {/* {
+        storeInfo && */}
+        <MobileMenu
+          store={storeInfo.store}
+          categories={currentMenu}
+        />
+      {/* } */}
+
+      <Hero
+        storneNo={storeInfo.store}
+        phone={storeInfo.phone}
+        address={storeInfo.address}
+        gmapLink={storeInfo.gmapLink}
       />
 
       <div style={{ backgroundImage: `url(${bricks})`, backgroundAttachment: 'fixed' }} className="flex flex-col items-stretch pt-12 text-gray-800">

@@ -10,10 +10,10 @@ import businessDetails from '../data/business_details.json';
 const IndexPage = () => {
   const dispatch = useDispatch()
 
-  useEffect(() => {
+  // useEffect(() => {
     dispatch({ type: "SET_CURRENT_MENU", payload: hogarOneMenu })
-    dispatch({ type: "SET_STORE_INFO", payload: businessDetails })
-  })
+    dispatch({ type: "SET_STORE_INFO", payload: businessDetails.hogarOneDetails })
+  // })
 
   return (
     <>
