@@ -95,7 +95,7 @@ const Content = ({ currentMenu, storeInfo }) => {
               categories={currentMenu}
             />
 
-            <div className="flex-grow">
+            <div className="w-full">
               {currentMenu.map(({ category, type }, i) => (
                 <MenuItem
                   title={category}
