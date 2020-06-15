@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/gatsby`,
+  pathPrefix: `/hogar`,
   siteMetadata: {
     title: `Hogar`,
     description: `Brza hrana — Aleksinac`,
