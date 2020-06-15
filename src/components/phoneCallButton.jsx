@@ -5,16 +5,16 @@ const PhoneCallButton = ({ phoneNumber }) => {
 
   useEffect(() => {
     const tl = gsap.timeline({
-      // delay: 5,
+      delay: 5,
       repeat: -1,
-      // repeatDelay: 20,
-      yoyo: true,
+      repeatDelay: 20,
       defaults: { duration: 1, ease: "elastic.inOut(0.4 , 0.8)" },
     });
 
     tl.to("#call-fixed-button-info-text", { display: 'flex' });
     tl.from("#call-fixed-button-info-text", { opacity: 0, width: '3rem' });
-    tl.from("#call-fixed-button-arrow-icon", { x: 3, duration: 0.8, repeat: 4, yoyo: true, ease: "Expo.easeInOut" });
+    tl.from("#call-fixed-button-arrow-icon", { x: 3, duration: 0.8, repeat: 6, yoyo: true, ease: "Expo.easeInOut" });
+    tl.to("#call-fixed-button-info-text", { opacity: 0, width: '3rem' });
   }, [])
 
 
