@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import {  useDispatch, useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 
 
 const Header = () => {
@@ -9,21 +9,21 @@ const Header = () => {
   const dispatch = useDispatch()
 
   return (
-    <header id="header" className="fixed inset-x-0 top-0 z-30 flex justify-center text-gray-800 bg-white bg-opacity-75 border-b-2 border-white shadow-md" style={{ backdropFilter: 'blur(4px)', WebkitBackdropFilter: 'blur(4px)'}}>
+    <header id="header" className="fixed inset-x-0 top-0 z-30 flex justify-center text-gray-800 bg-white bg-opacity-75 border-b-2 border-white shadow-md" style={{ backdropFilter: 'blur(4px)', WebkitBackdropFilter: 'blur(4px)' }}>
       <div className="flex justify-between w-full h-12 max-w-4xl px-2 sm:px-6">
         <nav className="flex text-gray-600">
-          <Link className="flex items-center h-full px-4 font-semibold hover:bg-orange-100" activeClassName="shadow-bottom-orange text-gray-900" to="/">
+          <Link style={{ transition: 'background 300ms, color 300ms, box-shadow 300ms' }} className="flex items-center h-full px-4 font-semibold hover:shadow-bottom-orange hover:bg-orange-500 hover:text-orange-100" activeClassName="shadow-bottom-orange bg-orange-600 text-orange-100" to="/">
             <span>Hogar 1</span>
           </Link>
-          <Link className="flex items-center h-full px-4 font-semibold hover:bg-orange-100" activeClassName="shadow-bottom-orange text-gray-900" to="/2/">
+          <Link style={{ transition: 'background 300ms, color 300ms, box-shadow 300ms' }} className="flex items-center h-full px-4 font-semibold hover:shadow-bottom-orange hover:bg-orange-500 hover:text-orange-100" activeClassName="shadow-bottom-orange bg-orange-600 text-orange-100" to="/2/">
             <span>Hogar 2</span>
           </Link>
         </nav>
 
-        <button 
+        <button
           className="block px-4 hover:bg-orange-100 hover:text-orange-500 md:hidden focus:outline-none"
           style={{ transition: 'color 250ms, background 250ms' }}
-          onClick={() => dispatch({ type: "TOGGLE_MOBILE_MENU", payload: !mobileMenuVisible })} 
+          onClick={() => dispatch({ type: "TOGGLE_MOBILE_MENU", payload: !mobileMenuVisible })}
         >
           {
             mobileMenuVisible ?
