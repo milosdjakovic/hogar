@@ -15,7 +15,7 @@ const ScrollTopButton = ({ windowOnTop }) => {
   return (
     <button
       id="scroll-fixed-button"
-      className="fixed bottom-0 right-0 z-10 flex items-center justify-center w-12 h-12 mb-6 mr-6 bg-white bg-orange-200 rounded-full shadow-lg hover:text-gray-100 hover:bg-orange-500 focus:outline-none"
+      className="fixed bottom-0 right-0 z-10 flex items-center justify-center w-12 h-12 mb-4 mr-4 bg-white bg-orange-200 rounded-full shadow-lg sm:mb-6 sm:mr-6 hover:text-gray-100 hover:bg-orange-500 focus:outline-none"
       onClick={scrollView}
       style={{ transition: 'color 250ms, background 250ms' }}
     >

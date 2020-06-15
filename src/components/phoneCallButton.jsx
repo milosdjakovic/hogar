@@ -25,7 +25,7 @@ const PhoneCallButton = ({ phoneNumber }) => {
 
 
   return (
-    <div id="call-fixed-button" className="fixed bottom-0 left-0 z-10 flex grid items-center grid-cols-2 grid-rows-1 mb-6 ml-6 rounded-full md:hidden">      
+    <div id="call-fixed-button" className="fixed bottom-0 left-0 z-10 flex grid items-center grid-cols-2 grid-rows-1 mb-4 ml-4 rounded-full sm:mb-6 sm:ml-6 md:hidden">      
       <a
         id="call-action"
         className="relative z-20 flex items-center justify-center w-12 h-12 col-start-1 col-end-2 row-start-1 row-end-2 text-gray-800 bg-white bg-green-300 rounded-full shadow-lg hover:text-gray-100 hover:bg-green-400 focus:outline-none"

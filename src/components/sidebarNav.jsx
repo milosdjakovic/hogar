@@ -27,7 +27,7 @@ const SidebarNav = ({ categories }) => {
 
   return (
     <div
-      className="sticky hidden w-56 mr-6 top-16 md:block"
+      className="sticky flex-shrink-0 hidden w-56 mr-6 top-16 md:block"
       style={{ filter: 'drop-shadow(4px 6px 4px #00000028)' }}
     >
       <TearedEdge direction="up" className="hidden md:block" />
