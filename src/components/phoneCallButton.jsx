@@ -15,6 +15,10 @@ const PhoneCallButton = ({ phoneNumber }) => {
       defaults: { duration: 1.2, ease: "elastic.inOut(0.4 , 0.8)" },
     });
     
+
+
+    tl.to("#call-fixed-button-info-wrapper", { display: 'block' });
+
     tl.from("#call-fixed-button-info-wrapper", { backgroundColor: 'transparent', width: '3rem' });
     tl.from("#call-fixed-button-info-text", { display: 'none', opacity: 0, x: '-3rem' }, "-=0.8");
     tl.from("#call-fixed-button-arrow-icon", { x: -3, duration: 0.8, repeat: 6, yoyo: true, ease: "Expo.easeInOut" });
@@ -45,7 +49,7 @@ const PhoneCallButton = ({ phoneNumber }) => {
         <p className="ml-2 mr-8 text-lg">Poruči i pokupi</p>
       </div>
 
-      <div ref={infoWrapper} id="call-fixed-button-info-wrapper" className="z-0 h-12 col-start-1 col-end-3 row-start-1 row-end-2 pl-12 bg-gray-900 bg-opacity-50 rounded-full" style={{ backdropFilter: 'blur(4px)', WebkitBackdropFilter: 'blur(4px)'}} />
+      <div ref={infoWrapper} id="call-fixed-button-info-wrapper" className="z-0 hidden h-12 col-start-1 col-end-3 row-start-1 row-end-2 pl-12 bg-gray-900 bg-opacity-50 rounded-full" style={{ backdropFilter: 'blur(4px)', WebkitBackdropFilter: 'blur(4px)'}} />
     </div>
   )
 }
