@@ -8,7 +8,7 @@ import Content from '../components/content';
 
 const IndexPage = () => (
   <>
-    <SEO title="HOGAR - 2" lang="sr" />
+    <SEO title="Majora Tepića bb" lang="sr" />
 
     <Content
       storeInfo={businessDetails.hogarOneDetails}

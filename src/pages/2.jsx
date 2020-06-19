@@ -8,7 +8,7 @@ import businessDetails from '../data/business_details.json';
 
 const SecondPage = () => (
   <>
-    <SEO title="HOGAR - 2" lang="sr" />
+    <SEO title="7. Juli bb" lang="sr" />
 
     <Content
       storeInfo={businessDetails.hogarTwoDetails}

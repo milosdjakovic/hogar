@@ -10,7 +10,7 @@ const SidebarNav = ({ categories }) => {
   const SidebarLink = ({ category }) => (
     <a
       href={`#${category}`}
-      className={`${menuItemInViewport === category && `text-orange-500 font-bold`} py-1 flex text-gray-700 hover:text-orange-500`}
+      className={`${menuItemInViewport === category && `text-orange-500 font-bold`} py-1 flex text-gray-700 hover:text-orange-500 hover:underline`}
       style={{ marginLeft: menuItemInViewport === category && '-32px' }}
     >
       {
