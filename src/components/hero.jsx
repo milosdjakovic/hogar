@@ -18,7 +18,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
         </svg>
       </div>
 
-      <a href={`tel:{phone}`} className="ml-1 text-xl font-semibold hover:text-orange-500">
+      <a href={`tel:{phone}`} className="ml-1 text-xl font-semibold hover:text-orange-600">
         {phone}
       </a>
     </div>
@@ -26,7 +26,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
     {/* Location */}
     <div className="flex items-center h-8 mt-4 hero-text">
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 text-orange-500 icon icon-tabler icon-tabler-map-pin" viewBox="0 0 24 24" strokeWidth="2.6" stroke="rgba(237, 137, 54)" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 text-orange-600 icon icon-tabler icon-tabler-map-pin" viewBox="0 0 24 24" strokeWidth="2.6" stroke="rgba(237, 137, 54)" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" />
           <circle cx="12" cy="11" r="3" />
           <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
@@ -34,8 +34,8 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
     </div>
 
       <a href={gmapLink} className="ml-2 group">
-        <span className="font-semibold group-hover:text-orange-500">{address}</span>
-        <span className="text-gray-700 group-hover:text-orange-500"> Aleksinac</span>
+        <span className="font-semibold group-hover:text-orange-600">{address}</span>
+        <span className="text-gray-700 group-hover:text-orange-600"> Aleksinac</span>
       </a>
 
     </div>

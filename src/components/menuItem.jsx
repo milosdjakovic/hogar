@@ -36,7 +36,7 @@ const MenuItem = ({ children, title, product, className, style }) => {
         className="flex justify-center flex-grow px-5 py-8 text-center menu-item xs:px-8"
       >
         <div className="w-full max-w-md">
-          <h3 className="mx-2 text-6xl capitalize border-b-2 border-orange-500 font-bahiana">
+          <h3 className="mx-2 text-6xl capitalize border-b-2 border-orange-600 font-bahiana">
             {title}
           </h3>
 
@@ -50,12 +50,12 @@ const MenuItem = ({ children, title, product, className, style }) => {
                     {product.charAt(0).toUpperCase() + product.slice(1)}
                   </p>
                   {ingredients && (
-                    <p className="mt-4 text-2xl text-gray-600 font-patrick">
+                    <p className="mt-2 text-2xl text-gray-700 font-patrick">
                       {ingredients.charAt(0).toUpperCase() +
                         ingredients.slice(1)}
                     </p>
                   )}
-                  <p className="mt-4 text-4xl text-orange-500 whitespace-pre-wrap font-patrick">
+                  <p className="mt-4 text-4xl text-orange-600 whitespace-pre-wrap font-patrick">
                     {details}
                   </p>
                 </div>
