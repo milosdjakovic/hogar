@@ -49,15 +49,19 @@ const MobileMenu = ({ categories, className }) => {
     >
       <div
         id="mobile-menu"
-        className="fixed inset-0 z-20 flex items-center justify-center overflow-y-auto bg-white md:hidden"
+        className="fixed inset-0 z-20 pb-32 flex items-center justify-center overflow-y-auto bg-white md:hidden"
       >
-        <div className="grid gap-x-4 grid-cols-1 xs:grid-cols-2 w-64 max-h-screen text-center text-gray-600">
+        <div className="grid gap-x-4 pt-32 grid-cols-1 xs:grid-cols-2 w-64 max-h-screen text-center text-gray-600">
           {categories.map(({ category }) => (
-            <MobileMenuLink className="pt-4" category={category} key={category} />
+            <MobileMenuLink
+              className="pt-4"
+              category={category}
+              key={category}
+            />
           ))}
 
           <MobileMenuLink
-            className="xs:col-span-2 mt-10"
+            className="xs:col-span-2 mt-10 "
             category="Kako do nas?"
           />
         </div>
