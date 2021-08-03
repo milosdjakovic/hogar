@@ -14,7 +14,7 @@ const MobileMenu = ({ categories, className }) => {
       className={`${
         menuItemInViewport === category &&
         `text-gray-900 font-semibold border-orange-600`
-        } py-2 hover:text-orange-600 border-b-2 border-dashed ${className}`}
+      } py-2 hover:text-orange-600 border-b-2 border-dashed ${className}`}
       href={`#${category}`}
       onClick={() => dispatch({ type: "TOGGLE_MOBILE_MENU", payload: false })}
     >
@@ -35,7 +35,7 @@ const MobileMenu = ({ categories, className }) => {
 
   function hideMobileMenu(node, done) {
     const tl = gsap.timeline({ onComplete: done, defaults: { duration: 0.3 } })
-    tl.to(node, { y: window.innerHeight * -1 /2, opacity: 0 })
+    tl.to(node, { y: (window.innerHeight * -1) / 2, opacity: 0 })
   }
 
   return (
@@ -51,16 +51,15 @@ const MobileMenu = ({ categories, className }) => {
         id="mobile-menu"
         className="fixed inset-0 z-20 flex items-center justify-center overflow-y-auto bg-white md:hidden"
       >
-        <div className="flex flex-col items-stretch w-64 max-h-screen text-center text-gray-600">
+        <div className="grid gap-x-4 grid-cols-1 xs:grid-cols-2 w-64 max-h-screen text-center text-gray-600">
           {categories.map(({ category }) => (
-            <MobileMenuLink
-              className="first:mt-32"
-              category={category}
-              key={category}
-            />
+            <MobileMenuLink className="pt-4" category={category} key={category} />
           ))}
 
-          <MobileMenuLink className="mb-32" category="Kako do nas?" />
+          <MobileMenuLink
+            className="xs:col-span-2 mt-10"
+            category="Kako do nas?"
+          />
         </div>
       </div>
     </Transition>
