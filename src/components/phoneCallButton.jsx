@@ -4,9 +4,9 @@ import gsap from "gsap"
 const PhoneCallButton = ({ phoneNumber }) => {
   useEffect(() => {
     const tl = gsap.timeline({
-      // delay: 5,
+      delay: 5,
       repeat: -1,
-      repeatDelay: 5,
+      repeatDelay: 20,
       defaults: { duration: 1, ease: "elastic.inOut(0.4 , 0.8)" },
     })
 
