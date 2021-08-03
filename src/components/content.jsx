@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import { useSelector, useDispatch } from "react-redux"
 import gsap from "gsap"
 
-import bricks from "../images/brickwall.png"
+import bricks from "../images/brick_wall.png"
 
 import Header from "./header"
 import MobileMenu from "./mobileMenu"
@@ -87,7 +87,7 @@ const Content = ({ currentMenu, storeInfo }) => {
           backgroundImage: `url(${bricks})`,
           backgroundAttachment: "fixed",
         }}
-        className="flex flex-col items-stretch pt-12 text-gray-800"
+        className="flex flex-col filter invert items-stretch pt-12 text-gray-800"
       >
         <MobileMenu store={storeInfo.store} categories={currentMenu} />
 
