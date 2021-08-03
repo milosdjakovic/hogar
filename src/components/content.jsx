@@ -87,7 +87,7 @@ const Content = ({ currentMenu, storeInfo }) => {
           backgroundImage: `url(${bricks})`,
           backgroundAttachment: "fixed",
         }}
-        className="flex flex-col filter invert items-stretch pt-12 text-gray-800"
+        className="flex flex-col items-stretch pt-12 text-gray-800"
       >
         <MobileMenu store={storeInfo.store} categories={currentMenu} />
 
