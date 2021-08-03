@@ -1,7 +1,7 @@
 [
 	{
 		"category": "paste",
-		"type": [
+		"product": [
 			{
 				"product": "pesto",
 				"ingredients": "špagete, pečurke, pesto sos, neutralna pavlaka, luk(crni), brasno.",
@@ -46,7 +46,7 @@
 	},
 	{
 		"category": "sosevi",
-		"type": [
+		"product": [
 			{
 				"product": "pesto",
 				"ingredients": "pesto sos, pečurke, neutralna pavlaka, luk (crni), začini.",
@@ -66,7 +66,7 @@
 	},
 	{
 		"category": "paketi",
-		"type": [
+		"product": [
 			{
 				"product": "porodični #1",
 				"ingredients": "susam, kikiriki, prezla, kornfleks, četiri lepinje, sezonska salata, pomfrit.",
@@ -81,7 +81,7 @@
 	},
 	{
 		"category": "salate",
-		"type": [
+		"product": [
 			{
 				"product": "cezar",
 				"ingredients": "piletina, paradajz, pančeta, krutoni, zelena salata, dresing.",
@@ -101,7 +101,7 @@
 	},
 	{
 		"category": "lepinje",
-		"type": [
+		"product": [
 			{
 				"product": "obična",
 				"ingredients": "brašno, so, voda.",
@@ -116,7 +116,7 @@
 	},
 	{
 		"category": "dodaci",
-		"type": [
+		"product": [
 			{
 				"product": "pileća salata",
 				"ingredients": "piletina, pavlaka, majonez, šargarepa, krompir, senf, začini.",
@@ -163,7 +163,7 @@
 	},
 	{
 		"category": "pileće belo",
-		"type": [
+		"product": [
 			{
 				"product": "pohovani štapići",
 				"ingredients": "pileći file, jaje, brašno, prezle.",
@@ -188,7 +188,7 @@
 	},
 	{
 		"category": "krilca",
-		"type": [
+		"product": [
 			{
 				"product": "domaća",
 				"ingredients": "bez vrhova.",
@@ -208,7 +208,7 @@
 	},
 	{
 		"category": "rolovano",
-		"type": [
+		"product": [
 			{
 				"product": "pile",
 				"ingredients": "pile bez kostiju, šunka, pečurke, kačkavalj, senf, vegeta, biber.",
@@ -218,7 +218,7 @@
 	},
 	{
 		"category": "batačići",
-		"type": [
+		"product": [
 			{
 				"product": "pohovani",
 				"ingredients": "pileći file, prezle, korn fleks, jaje, brašno.",
@@ -228,7 +228,7 @@
 	},
 	{
 		"category": "sendviči",
-		"type": [
+		"product": [
 			{
 				"product": "hogar pileći",
 				"ingredients": "lepinja, rolovana piletina, tartar sos, prilog po izboru.",
@@ -278,7 +278,7 @@
 	},
 	{
 		"category": "roštilj",
-		"type": [
+		"product": [
 			{
 				"product": "šiš ćevap",
 				"ingredients": "lepinja, roštiljsko meso, luk (crni, prazi), so, biber.",

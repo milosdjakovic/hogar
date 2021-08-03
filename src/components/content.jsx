@@ -96,10 +96,10 @@ const Content = ({ currentMenu, storeInfo }) => {
             />
 
             <div className="w-full">
-              {currentMenu.map(({ category, type }, i) => (
+              {currentMenu.map(({ category, product }, i) => (
                 <MenuItem
                   title={category}
-                  type={type}
+                  product={product}
                   key={`${category}_${i}`}
                 />
               ))}

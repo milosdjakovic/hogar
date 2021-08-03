@@ -1,7 +1,7 @@
 [
 	{
 		"category": "pljeskavica",
-		"type": [
+		"product": [
 			{
 				"product": "mala",
 				"ingredients": "roštiljsko meso, lepinja",
@@ -21,7 +21,7 @@
 	},
 	{
 		"category": "gurmanska",
-		"type": [
+		"product": [
 			{
 				"product": "mala",
 				"ingredients": "roštiljsko meso, kačkavalj, lepinja",
@@ -41,7 +41,7 @@
 	},
 	{
 		"category": "na kilogram",
-		"type": [
+		"product": [
 			{
 				"product": "pljeskavica",
 				"ingredients": "roštiljsko mese",
@@ -85,7 +85,7 @@
 	},
 	{
 		"category": "pileći batak",
-		"type": [
+		"product": [
 			{
 				"product": "običan",
 				"ingredients": "batak bez kostiju, lepinja",
@@ -105,7 +105,7 @@
 	},
 	{
 		"category": "pileći file",
-		"type": [
+		"product": [
 			{
 				"product": "običan",
 				"ingredients": "pileće belo meso, lepinja",
@@ -125,7 +125,7 @@
 	},
 	{
 		"category": "vešalica",
-		"type": [
+		"product": [
 			{
 				"product": "bela",
 				"ingredients": "svinjski file ili karé, lepinja",
@@ -145,7 +145,7 @@
 	},
 	{
 		"category": "džigerica",
-		"type": [
+		"product": [
 			{
 				"product": "juneća u skrami",
 				"ingredients": "juneća džigerica, skrama, lepinja",
@@ -165,7 +165,7 @@
 	},
 	{
 		"category": "ćevap",
-		"type": [
+		"product": [
 			{
 				"product": "pet komada",
 				"ingredients": "roštiljsko meso, lepinja",
@@ -185,7 +185,7 @@
 	},
 	{
 		"category": "kobasica",
-		"type": [
+		"product": [
 			{
 				"product": "roštiljska",
 				"ingredients": "roštiljska kobasica, lepinja",
@@ -195,7 +195,7 @@
 	},
 	{
 		"category": "sendvič",
-		"type": [
+		"product": [
 			{
 				"product": "šunka",
 				"ingredients": "lepinja, šunka, pečurke, kačkavalj, masline, prilozi po izboru",
@@ -240,7 +240,7 @@
 	},
 	{
 		"category": "lepinje",
-		"type": [
+		"product": [
 			{
 				"product": "lepinja",
 				"ingredients": "brašno, so, voda, kvasac",
@@ -263,7 +263,7 @@
 	},
 	{
 		"category": "piroška",
-		"type": [
+		"product": [
 			{
 				"product": "šunka",
 				"ingredients": "lepinja, suvi vrat, pečenica, šunka, pavlaka, pečurke, kačkavalj, masline",
@@ -273,7 +273,7 @@
 	},
 	{
 		"category": "pica",
-		"type": [
+		"product": [
 			{
 				"product": "kaprićoza standard",
 				"ingredients": "testo, paradajz pelat, šunka, kačkavalj, pečurke, masline, origano",
