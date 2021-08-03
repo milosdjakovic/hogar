@@ -4,17 +4,16 @@ import gsap from "gsap"
 const PhoneCallButton = ({ phoneNumber }) => {
   useEffect(() => {
     const tl = gsap.timeline({
-      delay: 5,
+      // delay: 5,
       repeat: -1,
-      repeatDelay: 1,
+      repeatDelay: 5,
       defaults: { duration: 1, ease: "elastic.inOut(0.4 , 0.8)" },
     })
 
     tl.to("#call-fixed-button-info-text", { display: "flex" })
     tl.from("#call-fixed-button-info-text", {
       opacity: 0,
-      transform: "scaleX(0.1)",
-      transformOrigin: "left",
+      width: "3rem",
     })
     tl.from("#call-fixed-button-arrow-icon", {
       x: 3,
@@ -25,19 +24,15 @@ const PhoneCallButton = ({ phoneNumber }) => {
     })
     tl.to("#call-fixed-button-info-text", {
       opacity: 0,
-      transform: "scaleX(0.1)",
-      transformOrigin: "left",
+      width: "3rem",
     })
   }, [])
 
   return (
-    <div
-      id="call-fixed-button"
-      className="fixed bottom-0 left-0 mb-4 ml-4 mr-20 rounded-full shadow-md sm:mb-6 sm:ml-6 md:hidden"
-    >
+    <div id="call-fixed-button" className="rounded-full shadow-md md:hidden">
       <a
         id="call-action"
-        className="absolute bottom-0 left-0 z-10 flex items-center justify-center block w-12 h-12 bg-green-300 rounded-full hover:text-gray-100 hover:bg-green-400"
+        className="absolute pointer-events-auto bottom-0 left-0 z-10 flex items-center justify-center w-12 h-12 bg-green-300 rounded-full hover:text-gray-100 hover:bg-green-400"
         style={{ transition: "color 250ms, background 250ms" }}
         href={`tel:${phoneNumber}`}
       >
