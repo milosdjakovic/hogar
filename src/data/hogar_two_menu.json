@@ -4,43 +4,43 @@
 		"product": [
 			{
 				"product": "pesto",
-				"ingredients": "špagete, pečurke, pesto sos, neutralna pavlaka, luk(crni), brasno.",
-				"details": "110 din - 200 g\n200 din - 400 g"
+				"ingredients": "špagete, pečurke, pesto sos, neutralna pavlaka, luk(crni), brasno",
+				"details": "200 g - 120 din\n400 g - 210 din"
 			},
 			{
 				"product": "bolonjeze",
-				"ingredients": "špagete, juneće meso, pelat paradajza, luk (beli, crni), parmezan.",
-				"details": "140 din - 200 g\n260 din - 400 g"
+				"ingredients": "špagete, juneće meso, pelat paradajza, luk (beli, crni), parmezan",
+				"details": "200 g - 150 din\n400 g - 280 din"
 			},
 			{
 				"product": "karbonara",
-				"ingredients": "špagete, slanina, jaje, neutralna pavlaka, parmezan, biber.",
-				"details": "130 din - 200 g\n240 din - 400 g"
+				"ingredients": "špagete, slanina, jaje, neutralna pavlaka, parmezan, biber",
+				"details": "200 g - 140 din\n400 g - 250 din"
 			},
 			{
 				"product": "montanara",
-				"ingredients": "taljatele, piletina, neutralna pavlaka, luk (crni), pečurke, peršun.",
-				"details": "300 din - 400 g"
+				"ingredients": "taljatele, piletina, neutralna pavlaka, luk (crni), pečurke, peršun",
+				"details": "400 g - 320 din"
 			},
 			{
 				"product": "ljuta pasta",
-				"ingredients": "taljatele, hamburška slanina, luk(crni), ljuta paprika, čili, pelat.",
-				"details": "270 din - 400 g"
+				"ingredients": "taljatele, hamburška slanina, luk(crni), ljuta paprika, čili, pelat",
+				"details": "400 g - 280 din"
 			},
 			{
 				"product": "vegetarijana",
-				"ingredients": "taljatele, pelat, šargarepa, paprika (zelena),luk (beli, crni), pečurke.",
-				"details": "270 din - 400 g"
+				"ingredients": "taljatele, pelat, šargarepa, paprika (zelena),luk (beli, crni), pečurke",
+				"details": "400 g - 280 din"
 			},
 			{
 				"product": "piletina u gorgonzoli",
-				"ingredients": "taljatele, gorgonzola, piletina, neutralna pavlaka, vino (belo), so, biber.",
-				"details": "320 din - 400 g"
+				"ingredients": "taljatele, gorgonzola, piletina, neutralna pavlaka, vino (belo), so, biber",
+				"details": "400 g - 320 din"
 			},
 			{
 				"product": "četiri sira",
-				"ingredients": "taljatele, gorgonzola, mocarela, kačkavalj, sjenički sir, neutralna pavlaka.",
-				"details": "320 din - 400 g"
+				"ingredients": "taljatele, gorgonzola, mocarela, kačkavalj, sjenički sir, neutralna pavlaka",
+				"details": "400 g - 320 din"
 			}
 		]
 	},
@@ -49,18 +49,18 @@
 		"product": [
 			{
 				"product": "pesto",
-				"ingredients": "pesto sos, pečurke, neutralna pavlaka, luk (crni), začini.",
+				"ingredients": "pesto sos, pečurke, neutralna pavlaka, luk (crni), začini",
 				"details": "600 din - 1 kg"
 			},
 			{
 				"product": "bolonjeze",
-				"ingredients": "juneće meso, paradajz pelat, luk (crni, beli), začini.",
+				"ingredients": "juneće meso, paradajz pelat, luk (crni, beli), začini",
 				"details": "800 din - 1 kg"
 			},
 			{
 				"product": "karbonara",
-				"ingredients": "pančeta, kačkavalj, jaje, neutralna pavlaka, luk (beli).",
-				"details": "700 din - 1 kg"
+				"ingredients": "pančeta, kačkavalj, jaje, neutralna pavlaka, luk (beli)",
+				"details": "800 din - 1 kg"
 			}
 		]
 	},
@@ -69,13 +69,13 @@
 		"product": [
 			{
 				"product": "porodični #1",
-				"ingredients": "susam, kikiriki, prezla, kornfleks, četiri lepinje, sezonska salata, pomfrit.",
-				"details": "1100 din"
+				"ingredients": "Pohovana piletina (susam, kikiriki, prezla, kornfleks), četiri lepinje, sezonska salata, pomfrit",
+				"details": "1200 din"
 			},
 			{
 				"product": "porodični #2",
-				"ingredients": "dimljena vešalica, pileći file, svinjski file, pileći batak, sezonska salata, pomfrit.",
-				"details": "1100 din"
+				"ingredients": "dimljena vešalica, pileći file, svinjski file, pileći batak, sezonska salata, pomfrit",
+				"details": "1200 din"
 			}
 		]
 	},
@@ -84,18 +84,18 @@
 		"product": [
 			{
 				"product": "cezar",
-				"ingredients": "piletina, paradajz, pančeta, krutoni, zelena salata, dresing.",
-				"details": "250 din"
+				"ingredients": "piletina, paradajz, pančeta, krutoni, zelena salata, dresing",
+				"details": "280 din"
 			},
 			{
 				"product": "grčka",
-				"ingredients": "feta, kuvano jaje, masline, krastavac, paradajz, luka (crni).",
-				"details": "200 din"
+				"ingredients": "feta, kuvano jaje, masline, krastavac, paradajz, luka (crni)",
+				"details": "230 din"
 			},
 			{
 				"product": "pasta",
-				"ingredients": "testenina, tunjevina, meksički pasulj, kukuruz šećerac, masline, dresing.",
-				"details": "200 din"
+				"ingredients": "testenina, tunjevina, meksički pasulj, kukuruz šećerac, masline, dresing",
+				"details": "230 din"
 			}
 		]
 	},
@@ -104,13 +104,13 @@
 		"product": [
 			{
 				"product": "obična",
-				"ingredients": "brašno, so, voda.",
-				"details": "20 din - 130 g"
+				"ingredients": "brašno, so, voda",
+				"details": "130 g - 25 din"
 			},
 			{
 				"product": "duguljasta",
-				"ingredients": "brašno, so, voda.",
-				"details": "20 din - 150 g"
+				"ingredients": "brašno, so, voda",
+				"details": "150 g - 25 din"
 			}
 		]
 	},
@@ -119,45 +119,49 @@
 		"product": [
 			{
 				"product": "pileća salata",
-				"ingredients": "piletina, pavlaka, majonez, šargarepa, krompir, senf, začini.",
-				"details": "30 din"
+				"ingredients": "piletina, pavlaka, majonez, šargarepa, krompir, senf, začini",
+				"details": "40 din"
 			},
 			{
 				"product": "francuska salata",
-				"ingredients": "jaje, majonez, pavlaka, šargarepa, krompir, grašak.",
-				"details": "30 din"
+				"ingredients": "jaje, majonez, pavlaka, šargarepa, krompir, grašak",
+				"details": "40 din"
 			},
 			{
 				"product": "rižoto",
-				"details": "30 din"
+				"details": "40 din"
 			},
 			{
 				"product": "kajmak",
-				"details": "30 din"
+				"details": "40 din"
 			},
 			{
 				"product": "pohovani kačkavalj",
-				"details": "65 din - 50 g"
+				"details": "50 g - 70 din"
 			},
 			{
 				"product": "pomfrit",
-				"details": "70 din - 100 g"
+				"details": "100 g - 70 din"
 			},
 			{
 				"product": "špageti",
-				"details": "50 din - 100 g"
+				"details": "100 g - 60 din"
 			},
 			{
 				"product": "taljatele",
-				"details": "50 din - 100 g"
+				"details": "100 g - 60 din"
 			},
 			{
 				"product": "krompirići",
-				"details": "150 din - 10 komada"
+				"details": "10 komada - 150 din"
 			},
 			{
 				"product": "kolutići luka",
-				"details": "180 din - 10 komada"
+				"details": "10 komada - 180 din"
+			},
+			{
+				"product": "rebrasti pomfrit",
+				"details": "100g - 90 din"
 			}
 		]
 	},
@@ -166,23 +170,23 @@
 		"product": [
 			{
 				"product": "pohovani štapići",
-				"ingredients": "pileći file, jaje, brašno, prezle.",
-				"details": "300 din - 300 g\n600 din - 600 g\n1000 din - 1 kg"
+				"ingredients": "pileći file, jaje, brašno, prezle",
+				"details": "300 g - 330 din\n600 g - 660 din\n1 kg - 1100 din"
 			},
 			{
 				"product": "korn fleks štapići",
-				"ingredients": "pileći file, jaje, brašno, korn fleks.",
-				"details": "300 din - 300 g\n600 din - 600 g\n1000 din - 1 kg"
+				"ingredients": "pileći file, jaje, brašno, korn fleks",
+				"details": "300 g - 330 din\n600 g - 660 din\n1 kg - 1100 din"
 			},
 			{
 				"product": "susam štapići",
-				"ingredients": "pileći file, jaje, brašno, susam.",
-				"details": "330 din - 300 g\n660 din - 600 g\n1100 din - 1 kg"
+				"ingredients": "pileći file, jaje, brašno, susam",
+				"details": "300 g - 360 din\n600 g - 720 din\n1 kg - 1200 din"
 			},
 			{
 				"product": "kikiriki štapići",
-				"ingredients": "pileći file, jaje, brašno, kikiriki.",
-				"details": "330 din - 300 g\n660 din - 600 g\n1100 din - 1 kg"
+				"ingredients": "pileći file, jaje, brašno, kikiriki",
+				"details": "300 g - 360 din\n600 g - 720 din\n1 kg - 1200 din"
 			}
 		]
 	},
@@ -191,18 +195,18 @@
 		"product": [
 			{
 				"product": "domaća",
-				"ingredients": "bez vrhova.",
-				"details": "180 din - 300 g\n360 din - 600 g\n600 din - 1 kg"
+				"ingredients": "bez vrhova",
+				"details": "300 g - 190 din\n600 g - 380 din\n1 kg - 630 din"
 			},
 			{
 				"product": "ljuta",
-				"ingredients": "bez vrhova.",
-				"details": "180 din - 300 g\n360 din - 600 g\n600 din - 1 kg"
+				"ingredients": "bez vrhova",
+				"details": "300 g - 190 din\n600 g - 380 din\n1 kg - 630 din"
 			},
 			{
 				"product": "karamel",
-				"ingredients": "bez vrhova.",
-				"details": "210 din - 300 g\n420 din - 600 g\n700 din - 1 kg"
+				"ingredients": "bez vrhova",
+				"details": "300 g - 220 din\n600 g - 440 din\n1 kg - 740 din"
 			}
 		]
 	},
@@ -211,8 +215,8 @@
 		"product": [
 			{
 				"product": "pile",
-				"ingredients": "pile bez kostiju, šunka, pečurke, kačkavalj, senf, vegeta, biber.",
-				"details": "1000 din - 1 kg"
+				"ingredients": "pile bez kostiju, šunka, pečurke, kačkavalj, senf, vegeta, biber",
+				"details": "1 kg - 1100 din"
 			}
 		]
 	},
@@ -221,8 +225,8 @@
 		"product": [
 			{
 				"product": "pohovani",
-				"ingredients": "pileći file, prezle, korn fleks, jaje, brašno.",
-				"details": "240 din - 300 g\n480 din - 600 g\n800 din - 1 kg"
+				"ingredients": "pileći file, prezle, korn fleks, jaje, brašno",
+				"details": "300 g - 260 din\n600 g - 530 din\n1 kg - 880 din"
 			}
 		]
 	},
@@ -231,47 +235,47 @@
 		"product": [
 			{
 				"product": "hogar pileći",
-				"ingredients": "lepinja, rolovana piletina, tartar sos, prilog po izboru.",
-				"details": "150 din"
+				"ingredients": "lepinja, rolovana piletina, tartar sos, prilog po izboru",
+				"details": "160 din"
 			},
 			{
 				"product": "bečki",
-				"ingredients": "lepinja, pohovana svinjska šnicla, prilog po izboru.",
-				"details": "200 din"
+				"ingredients": "lepinja, pohovana svinjska šnicla, prilog po izboru",
+				"details": "220 din"
 			},
 			{
 				"product": "pariški",
-				"ingredients": "lepinja, pohovana piletina, prilog po izboru.",
-				"details": "150 din"
+				"ingredients": "lepinja, pohovana piletina, prilog po izboru",
+				"details": "160 din"
 			},
 			{
 				"product": "srpski",
-				"ingredients": "lepinja, suvi vrat, kačkavalj, prilog po izboru.",
-				"details": "150 din"
+				"ingredients": "lepinja, suvi vrat, kačkavalj, prilog po izboru",
+				"details": "160 din"
 			},
 			{
 				"product": "italijanski",
-				"ingredients": "lepinja, šunka, kačkavalj, pileća salata, prilog po izboru.",
-				"details": "140 din"
-			},
-			{
-				"product": "pohovani kačkavalj",
-				"ingredients": "lepinja, kačkavalj, prilog po izboru.",
+				"ingredients": "lepinja, šunka, kačkavalj, pileća salata, prilog po izboru",
 				"details": "150 din"
 			},
 			{
-				"product": "posni",
-				"ingredients": "lepinja, tunjevina, biljni kačkavalj, kukuruz šećerac, meksički pasulj, šampinjoni, masline, zelena salata ili krastavac.",
-				"details": "130 din"
+				"product": "pohovani kačkavalj",
+				"ingredients": "lepinja, kačkavalj, prilog po izboru",
+				"details": "160 din"
 			},
 			{
 				"product": "klub",
-				"ingredients": "tost hleb, šunka, hamburška slanina, jaje, topljeni sir, zelena salata, paradajz, majonez, pomfrit.",
-				"details": "250 din"
+				"ingredients": "tost hleb, šunka, hamburška slanina, jaje, topljeni sir, zelena salata, paradajz, majonez, pomfrit",
+				"details": "300 din"
+			},
+			{
+				"product": "posni",
+				"ingredients": "lepinja, tunjevina, biljni kačkavalj, kukuruz šećerac, meksički pasulj, šampinjoni, masline, zelena salata ili krastavac",
+				"details": "140 din"
 			},
 			{
 				"product": "kaprićoza parče",
-				"ingredients": "testo, šunka, pelat paradajza, kačkavalj, pečurke.",
+				"ingredients": "testo, šunka, pelat paradajza, kačkavalj, pečurke",
 				"details": "100 din - 1/6"
 			}
 		]
@@ -280,74 +284,86 @@
 		"category": "roštilj",
 		"product": [
 			{
-				"product": "šiš ćevap",
-				"ingredients": "lepinja, roštiljsko meso, luk (crni, prazi), so, biber.",
-				"details": "150 din - 200 g"
-			},
-			{
-				"product": "punjeni šiš ćevap",
-				"ingredients": "lepinja, roštiljsko meso, kačkavalj, luk (crni, prazi), so, biber.",
-				"details": "180 din - 230 g"
-			},
-			{
 				"product": "pljeskavica",
-				"ingredients": "lepinja, roštiljsko meso, luk (crni, prazi).",
-				"details": "110din - 120g\n150 din - 200 g"
+				"ingredients": "lepinja, roštiljsko meso, luk (crni, prazi)",
+				"details": "120 g - 120 din\n200 g - 160 din"
 			},
 			{
 				"product": "punjena pljeskavica",
-				"ingredients": "lepinja, roštiljsko meso, kačkavalj, luk (crni, prazi).",
-				"details": "180 din - 230 g"
+				"ingredients": "lepinja, roštiljsko meso, kačkavalj, luk (crni, prazi)",
+				"details": "230 g - 190 din"
+			},
+			{
+				"product": "šiš ćevap",
+				"ingredients": "lepinja, roštiljsko meso, luk (crni, prazi), so, biber",
+				"details": "200 g - 160 din"
+			},
+			{
+				"product": "punjeni šiš ćevap",
+				"ingredients": "lepinja, roštiljsko meso, kačkavalj, luk (crni, prazi), so, biber",
+				"details": "230 g - 190 din"
 			},
 			{
 				"product": "gurmanski zalogaj",
-				"ingredients": "lepinja, roštiljsko meso, kačkavalj, suvi vrat.",
-				"details": "190 din - 250 g"
+				"ingredients": "lepinja, roštiljsko meso, kačkavalj, suvi vrat",
+				"details": "250 g - 200 din"
 			},
 			{
 				"product": "pileći batak",
-				"ingredients": "lepinja, pileći batak bez kostiju.",
-				"details": "180 din - 150 g"
+				"ingredients": "lepinja, pileći batak bez kostiju",
+				"details": "150 g - 190 din"
 			},
 			{
 				"product": "batak u slanini",
-				"ingredients": "lepinja, slanina, meso bez kožice i kostiju.",
-				"details": "220 din - 180 g"
+				"ingredients": "lepinja, slanina, meso bez kožice i kostiju",
+				"details": "180 g - 220 din"
 			},
 			{
 				"product": "batak u gorgonzoli",
-				"ingredients": "lepinja, gorgonzola sos, meso bez kožice i kostiju.",
-				"details": "220 din - 180 g"
-			},
-			{
-				"product": "pileći file",
-				"ingredients": "lepinja, pileći file.",
-				"details": "210 din - 200 g"
+				"ingredients": "lepinja, gorgonzola sos, meso bez kožice i kostiju",
+				"details": "180 g - 230 din"
 			},
 			{
 				"product": "pileći file u slanini",
-				"ingredients": "lepinja, pileći file, slanina.",
-				"details": "210 din - 180 g"
+				"ingredients": "lepinja, pileći file, slanina",
+				"details": "180 g - 220 din"
 			},
 			{
 				"product": "pileći zalogaj",
-				"ingredients": "lepinja, pileći file, kačkavalj, suvi vrat.",
-				"details": "240 din - 300 g"
+				"ingredients": "lepinja, pileći file, kačkavalj, suvi vrat",
+				"details": "300 g - 250 din"
 			},
 			{
 				"product": "svinjski file",
-				"ingredients": "lepinja, svinjski file.",
-				"details": "220 din - 150 g"
+				"ingredients": "lepinja, svinjski file",
+				"details": "150 g - 230 din"
 			},
 			{
 				"product": "dimljena vešalica",
-				"ingredients": "lepinja, svinjska pečenica.",
-				"details": "220 din - 150 g"
+				"ingredients": "lepinja, svinjska pečenica",
+				"details": "150 g - 230 din"
 			},
 			{
 				"product": "filovana vešalica",
-				"ingredients": "lepinja, skrama, svinjski file, kačkavalj, svinjska pečenica.",
-				"details": "230 din - 200 g"
+				"ingredients": "lepinja, skrama, svinjski file, kačkavalj, svinjska pečenica",
+				"details": "200 g - 250 din"
+			}
+		]
+	},
+	{
+		"category": "pohovano",
+		"product": [
+			{
+				"product": "kolutići lignje",
+				"details": "porcija - 260 din"
+			},
+			{
+				"product": "ćevapi",
+				"details": "200 g - 230 din"
+			},
+			{
+				"product": "punjeni ćevapi",
+				"details": "230 g - 260"
 			}
 		]
 	}
