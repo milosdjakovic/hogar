@@ -55,7 +55,7 @@ const MenuItem = ({ children, title, product, className, style }) => {
                         ingredients.slice(1)}
                     </p>
                   )}
-                  <p className="mt-4 text-4xl text-orange-600 whitespace-pre-wrap font-patrick">
+                  <p className="mt-4 text-2xl xs:text-3xl text-orange-600 whitespace-pre-wrap font-patrick">
                     {details}
                   </p>
                 </div>
