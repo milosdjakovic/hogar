@@ -7,7 +7,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
   <div className="flex flex-col items-center py-4 my-4 sm:mt-8 sm:mb-10">
     <HogarLogo className="max-h-[44vh] w-full" />
 
-    <h1 className="text-5xl -mt-2 font-bold text-center uppercase hero-text font-patrick">
+    <h1 className=" text-4xl sm:text-5xl  font-bold text-center uppercase hero-text font-patrick">
       Poruči i pokupi
     </h1>
 
