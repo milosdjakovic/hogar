@@ -36,7 +36,7 @@ const MenuItem = ({ children, title, products, className, style }) => {
         className="flex justify-center flex-grow px-5 py-8 text-center menu-item xs:px-8"
       >
         <div className="w-full max-w-md">
-          <h3 className="mx-2 text-6xl capitalize border-b-2 border-orange-600 font-bahiana">
+          <h3 className="mx-2 text-6xl capitalize border-b-2 pb-4 border-orange-600 font-bahiana">
             {title}
           </h3>
 
