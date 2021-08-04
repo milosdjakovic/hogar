@@ -52,7 +52,7 @@ const MobileMenu = ({ categories, className }) => {
         className="z-20 bg-white inset-0 fixed md:hidden overflow-y-auto py-20"
       >
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 gap-x-4 flex-grow xs:grid-cols-2  text-center max-w-sm m-4">
+          <div className="grid grid-cols-1 gap-x-4 flex-grow xs:grid-cols-2  text-center max-w-sm m-12">
             {categories.map(({ category }) => (
               <MobileMenuLink
                 className="pt-4"
