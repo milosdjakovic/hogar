@@ -1,10 +1,10 @@
-import { createStore } from 'redux';
+import { createStore } from "redux"
 
 const initalState = {
   initialPageLoad: false,
   mobileMenuVisible: false,
   menuItemInViewport: null,
-  pageTransitionDuration: 300
+  pageTransitionDuration: 300,
 }
 
 function reducer(state = initalState, action) {
@@ -18,7 +18,7 @@ function reducer(state = initalState, action) {
     case "SET_STORE_INFO":
       return {
         ...state,
-        storeInfo: action.payload
+        storeInfo: action.payload,
       }
 
     case "TOGGLE_MOBILE_MENU":
@@ -38,6 +38,6 @@ function reducer(state = initalState, action) {
   }
 }
 
-export default preloadedState => {
-  return createStore(reducer, preloadedState);
-};
+export default function configureStore(preloadedState) {
+  return createStore(reducer, preloadedState)
+}
