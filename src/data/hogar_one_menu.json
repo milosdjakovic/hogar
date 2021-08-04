@@ -3,7 +3,6 @@
 		"category": "pljeskavica",
 		"products": [
 			{
-				"name": "mala",
 				"ingredients": "roštiljsko meso, lepinja",
 				"details": "Mala (150 g) - 120 din\nSrednja (200g) - 160 din\nVelika (300g) - 270 din"
 			}
@@ -13,7 +12,6 @@
 		"category": "gurmanska",
 		"products": [
 			{
-				"name": "mala",
 				"ingredients": "roštiljsko meso, kačkavalj, lepinja",
 				"details": "Mala (150 g) - 150 din\nSrednja (200g) - 190 din\nVelika (300g) - 260 din"
 			}
