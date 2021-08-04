@@ -106,10 +106,10 @@ const Content = ({ currentMenu, storeInfo }) => {
             <SidebarNav store={storeInfo.store} categories={currentMenu} />
 
             <div className="w-full">
-              {currentMenu.map(({ category, product }, i) => (
+              {currentMenu.map(({ category, products }, i) => (
                 <MenuItem
                   title={category}
-                  product={product}
+                  products={products}
                   key={`${category}_${i}`}
                 />
               ))}

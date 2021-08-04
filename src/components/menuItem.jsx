@@ -8,7 +8,7 @@ import linedPaper from "../images/lined_paper.png"
 
 // const THRESHOLD = [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]
 
-const MenuItem = ({ children, title, product, className, style }) => {
+const MenuItem = ({ children, title, products, className, style }) => {
   const [ref, inView] = useInView({
     threshold: 0,
     rootMargin: "-40% 0px -60% 0px",
@@ -40,8 +40,8 @@ const MenuItem = ({ children, title, product, className, style }) => {
             {title}
           </h3>
 
-          {product
-            ? product.map(({ product, ingredients, details }, j) => (
+          {products
+            ? products.map(({ product, ingredients, details }, j) => (
                 <div
                   key={`hogar_${product}_${j}`}
                   className="pt-4 pb-6 border-b-2 border-gray-800 border-opacity-50 border-dashed last:border-b-0"
