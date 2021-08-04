@@ -1,7 +1,16 @@
 import React from "react"
 
 const ScrollTopButton = ({ windowOnTop }) => {
+  function removeHash() {
+    window.history.replaceState(
+      "",
+      document.title,
+      window.location.origin + window.location.pathname + window.location.search
+    )
+  }
+
   function scrollView() {
+    removeHash()
     const firstMenuItem = document.querySelector(".menu-item")
     const topOffset = firstMenuItem.getBoundingClientRect().top - 80
 
