@@ -46,9 +46,11 @@ const MenuItem = ({ children, title, products, className, style }) => {
                   key={`hogar_${name}_${j}`}
                   className="pt-4 pb-6 border-b-2 border-gray-800 border-opacity-50 border-dashed last:border-b-0"
                 >
-                  <p className="text-4xl font-patrick">
-                    {name.charAt(0).toUpperCase() + name.slice(1)}
-                  </p>
+                  {name && (
+                    <p className="text-4xl font-patrick">
+                      {name.charAt(0).toUpperCase() + name.slice(1)}
+                    </p>
+                  )}
                   {ingredients && (
                     <p className="mt-2 text-2xl text-gray-700 font-patrick">
                       {ingredients.charAt(0).toUpperCase() +
