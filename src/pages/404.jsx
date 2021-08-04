@@ -15,6 +15,7 @@ const NotFound = () => {
 
   return (
     <>
+      {/* eslint-disable react/jsx-pascal-case */}
       <SEO title="Strana nije pronađena" />
 
       <div
