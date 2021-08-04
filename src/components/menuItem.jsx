@@ -41,13 +41,13 @@ const MenuItem = ({ children, title, products, className, style }) => {
           </h3>
 
           {products
-            ? products.map(({ product, ingredients, details }, j) => (
+            ? products.map(({ name, ingredients, details }, j) => (
                 <div
-                  key={`hogar_${product}_${j}`}
+                  key={`hogar_${name}_${j}`}
                   className="pt-4 pb-6 border-b-2 border-gray-800 border-opacity-50 border-dashed last:border-b-0"
                 >
                   <p className="text-4xl font-patrick">
-                    {product.charAt(0).toUpperCase() + product.slice(1)}
+                    {name.charAt(0).toUpperCase() + name.slice(1)}
                   </p>
                   {ingredients && (
                     <p className="mt-2 text-2xl text-gray-700 font-patrick">
