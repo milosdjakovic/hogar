@@ -51,13 +51,15 @@ const MenuItem = ({ children, title, products, className, style }) => {
                       {name.charAt(0).toUpperCase() + name.slice(1)}
                     </p>
                   )}
+
                   {ingredients && (
                     <p className="mt-2 text-2xl text-gray-700 font-patrick">
                       {ingredients.charAt(0).toUpperCase() +
                         ingredients.slice(1)}
                     </p>
                   )}
-                  <p className="mt-4 text-2xl xs:text-3xl text-orange-600 whitespace-pre-wrap font-patrick">
+
+                  <p className="mt-4 text-3xl xs:text-3xl text-orange-600 whitespace-pre-wrap font-patrick">
                     {details}
                   </p>
                 </div>
