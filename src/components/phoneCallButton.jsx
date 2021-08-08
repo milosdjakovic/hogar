@@ -79,7 +79,10 @@ const PhoneCallButton = ({ phoneNumber }) => {
           <line x1="5" y1="12" x2="11" y2="18" />
           <line x1="5" y1="12" x2="11" y2="6" />
         </svg>
-        <p className="ml-2 mr-8 text-lg whitespace-nowrap">Poruči i pokupi</p>
+
+        <p className="ml-2 mr-8 text-2xl whitespace-nowrap font-patrick">
+          Poruči i pokupi
+        </p>
       </div>
     </div>
   )
