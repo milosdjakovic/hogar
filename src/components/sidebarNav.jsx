@@ -37,13 +37,17 @@ const SidebarNav = ({ categories }) => {
     </a>
   )
 
+  // Contents
   return (
-    <div className="sticky flex-shrink-0 hidden w-56 mr-6 top-16 md:block">
-      <TearedEdge direction="up" className="hidden md:block" />
+    <div className="sticky hidden w-96 mr-6 top-16 md:block">
+      <TearedEdge direction="up" />
 
       <div
-        className="p-6 pl-10"
-        style={{ backgroundImage: `url(${linedPaper})` }}
+        className="p-6 pl-10 overflow-y-auto"
+        style={{
+          backgroundImage: `url(${linedPaper})`,
+          maxHeight: "calc(100vh - 7rem)",
+        }}
       >
         <h1 className="text-xl font-bold text-gray-700">Navigacija</h1>
 
@@ -56,7 +60,7 @@ const SidebarNav = ({ categories }) => {
         </div>
       </div>
 
-      <TearedEdge direction="down" className="hidden md:block" />
+      <TearedEdge direction="down" />
     </div>
   )
 }
