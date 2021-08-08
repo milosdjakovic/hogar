@@ -19,7 +19,7 @@ const Header = () => {
             style={{
               transition: "background 300ms, color 300ms, box-shadow 300ms",
             }}
-            className="flex items-center h-full px-4 font-semibold hover:shadow-bottom-orange hover:bg-orange-600 hover:text-orange-100"
+            className="flex items-center h-full px-4 hover:shadow-bottom-orange hover:bg-orange-600 hover:text-orange-100"
             activeClassName="shadow-bottom-orange bg-orange-600 text-orange-100"
             to="/"
           >
@@ -29,7 +29,7 @@ const Header = () => {
             style={{
               transition: "background 300ms, color 300ms, box-shadow 300ms",
             }}
-            className="flex items-center h-full px-4 font-semibold hover:shadow-bottom-orange hover:bg-orange-600 hover:text-orange-100"
+            className="flex items-center h-full px-4 hover:shadow-bottom-orange hover:bg-orange-600 hover:text-orange-100"
             activeClassName="shadow-bottom-orange bg-orange-600 text-orange-100"
             to="/2/"
           >
