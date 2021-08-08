@@ -12,13 +12,12 @@ const SidebarNav = ({ categories }) => {
       href={`#${category}`}
       className={`${
         menuItemInViewport === category ? `text-orange-600` : `text-gray-700`
-      } py-1 flex hover:text-orange-600`}
-      // style={menuItemInViewport === category ? { marginLeft: "-32px" } : {}}
+      } py-1 flex hover:text-orange-600 flex-grow-0`}
     >
       {menuItemInViewport === category ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mr-2 text-orange-600 w-6 icon icon-tabler icon-tabler-arrow-narrow-right"
+          class="mr-2 text-orange-600 w-6 h-6 icon icon-tabler icon-tabler-arrow-narrow-right"
           viewBox="0 0 24 24"
           strokeWidth="3"
           stroke="currentColor"
