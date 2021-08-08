@@ -13,7 +13,7 @@ const SidebarNav = ({ categories }) => {
       className={`${
         menuItemInViewport === category && `text-orange-600 font-bold`
       } py-1 flex text-gray-700 hover:text-orange-600`}
-      style={{ marginLeft: menuItemInViewport === category && "-32px" }}
+      style={menuItemInViewport === category ? { marginLeft: "-32px" } : {}}
     >
       {menuItemInViewport === category && (
         <svg
