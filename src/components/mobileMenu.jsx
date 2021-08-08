@@ -12,8 +12,9 @@ const MobileMenu = ({ categories, className }) => {
   const MobileMenuLink = ({ category, className }) => (
     <a
       className={`${
-        menuItemInViewport === category &&
-        `text-gray-900 font-semibold border-orange-600`
+        menuItemInViewport === category
+          ? `text-gray-900 font-semibold border-orange-600`
+          : "text-gray-700"
       } py-2 hover:text-orange-600 border-b-2 border-dashed ${className}`}
       href={`#${category}`}
       onClick={() => dispatch({ type: "TOGGLE_MOBILE_MENU", payload: false })}
