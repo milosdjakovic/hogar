@@ -24,18 +24,18 @@ const NotFound = () => {
         <h1 className="mt-8 text-4xl xs:text-6xl font-patrick text-center leading-7 xs:leading-[3rem]">
           Strana nije pronađena
         </h1>
-        <div className="text-3xl mt-6 flex whitespace-nowrap flex-col sm:flex-row items-center sm:items-end sm:gap-4  font-patrick">
+        <div className="text-3xl mt-6 flex whitespace-nowrap flex-col sm:flex-row items-baseline sm:gap-4  font-patrick">
           <p className="text-gray-700">Posetite</p>
           <Link
             to="/"
-            className="hover:text-orange-600 hover:underline font-bold mt-2 sm:mt-0"
+            className="hover:bg-orange-500 shadow-orange bg-orange-600 text-white rounded px-4 py-2 font-bold"
           >
             Hogar 1
           </Link>
           <p className="text-gray-600">ili</p>
           <Link
             to="/2/"
-            className="hover:text-orange-600 hover:underline font-bold "
+            className="hover:bg-orange-500 shadow-orange bg-orange-600 text-white rounded px-4 py-2 font-bold"
           >
             Hogar 2
           </Link>

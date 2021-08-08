@@ -10,6 +10,10 @@ module.exports = {
     extend: {
       boxShadow: {
         "bottom-orange": `0 2px 0 ${colors.orange["600"]}`,
+        orange: [
+          `0 10px 15px -3px  ${colors.orange["600"]}66`,
+          `0 4px 6px -2px ${colors.orange["600"]}11`,
+        ],
       },
       colors: {
         orange: {
