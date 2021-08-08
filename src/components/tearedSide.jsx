@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TearedEdge = ({ direction, width = 1200, className }) => {
-    const paperSvgHeight = 15;
+    const paperSvgHeight = 16;
 
     let svgSegment = paperSvgHeight / 2;
     let switchPointY = true;
