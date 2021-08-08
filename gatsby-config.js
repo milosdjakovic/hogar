@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors")
+
 module.exports = {
   pathPrefix: `/hogar`,
   siteMetadata: {
@@ -9,8 +11,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
-        pathToCreateStoreModule: './src/state/store',
-      }
+        pathToCreateStoreModule: "./src/state/store",
+      },
     },
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
@@ -29,8 +31,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: colors.orange["600"],
+        theme_color: colors.orange["600"],
         display: `minimal-ui`,
         icon: `src/images/hogar-logo.png`, // This path is relative to the root of the site.
       },
