@@ -14,7 +14,7 @@ import GoogleMap from "./googleMap"
 import Footer from "./footer"
 import BottomPageActions from "./bottomPageActions"
 
-const Content = ({ currentMenu, storeInfo }) => {
+const Layout = ({ currentMenu, storeInfo }) => {
   const initialPageLoad = useSelector(state => state.initialPageLoad)
 
   const dispatch = useDispatch()
@@ -108,4 +108,4 @@ const Content = ({ currentMenu, storeInfo }) => {
   )
 }
 
-export default Content
+export default Layout

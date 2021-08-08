@@ -4,14 +4,14 @@ import SEO from "../components/seo"
 
 import hogarOneMenu from "../data/hogar_one_menu.json"
 import businessDetails from "../data/business_details.json"
-import Content from "../components/content"
+import Layout from "../components/layout"
 
 const IndexPage = () => (
   <>
     {/* eslint-disable react/jsx-pascal-case */}
     <SEO title="Majora Tepića bb" lang="sr" />
 
-    <Content
+    <Layout
       storeInfo={businessDetails.hogarOneDetails}
       currentMenu={hogarOneMenu}
     />
