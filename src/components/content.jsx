@@ -98,7 +98,7 @@ const Content = ({ currentMenu, storeInfo }) => {
           gmapLink={storeInfo.gmapLink}
         />
 
-        <main className="flex flex-col flex-grow w-full max-w-4xl px-2 mx-auto sm:px-6">
+        <main className="flex flex-col flex-grow w-full max-w-4xl px-2 mx-auto sm:px-6 filter drop-shadow-2xl">
           <div
             id="main-content"
             className="flex flex-col items-center md:items-start md:justify-between md:flex-row"
