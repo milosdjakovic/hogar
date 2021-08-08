@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 
 import HogarLogo from "../components/HogarLogo"
 import bricks from "../images/brick_wall.png"
-import Header from "../components/header"
 
 const NotFound = () => {
   useEffect(() => {

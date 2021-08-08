@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect } from "react"
 import { Helmet } from "react-helmet"
 import { useSelector, useDispatch } from "react-redux"
 import gsap from "gsap"
@@ -12,13 +12,10 @@ import SidebarNav from "./sidebarNav"
 import MenuItem from "./menuItem"
 import GoogleMap from "./googleMap"
 import Footer from "./footer"
-import ScrollTopButton from "./scrollTopButton"
-import PhoneCallButton from "./phoneCallButton"
+import BottomPageActions from "./bottomPageActions"
 
 const Content = ({ currentMenu, storeInfo }) => {
   const initialPageLoad = useSelector(state => state.initialPageLoad)
-
-  const [windowOnTop, setWindowOnTop] = useState(true)
 
   const dispatch = useDispatch()
 
@@ -47,23 +44,6 @@ const Content = ({ currentMenu, storeInfo }) => {
       dispatch({ type: "SET_INITIAL_PAGE_LOADED", payload: true })
     }
   }, [dispatch, initialPageLoad])
-
-  function checkIfWindowIsOnTop() {
-    if (window.scrollY === 0) {
-      setWindowOnTop(true)
-    } else {
-      setWindowOnTop(false)
-    }
-  }
-
-  // Add scroll event listener
-  useEffect(() => {
-    window.addEventListener("scroll", checkIfWindowIsOnTop, { passive: true })
-
-    return () => {
-      window.removeEventListener("scroll", checkIfWindowIsOnTop)
-    }
-  }, [windowOnTop])
 
   return (
     <>
@@ -122,10 +102,7 @@ const Content = ({ currentMenu, storeInfo }) => {
           </div>
         </main>
 
-        <div className="fixed inset-x-0 bottom-0 bg flex pointer-events-none m-4 sm:m-6">
-          <PhoneCallButton phoneNumber={storeInfo.phone} />
-          <ScrollTopButton windowOnTop={windowOnTop} />
-        </div>
+        <BottomPageActions storeInfo={storeInfo} />
       </div>
     </>
   )
