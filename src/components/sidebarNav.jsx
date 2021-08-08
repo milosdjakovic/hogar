@@ -11,17 +11,14 @@ const SidebarNav = ({ categories }) => {
     <a
       href={`#${category}`}
       className={`${
-        menuItemInViewport === category && `text-orange-600 font-bold`
+        menuItemInViewport === category && `font-bold`
       } py-1 flex text-gray-700 hover:text-orange-600`}
-      style={menuItemInViewport === category ? { marginLeft: "-32px" } : {}}
+      // style={menuItemInViewport === category ? { marginLeft: "-32px" } : {}}
     >
-      {menuItemInViewport === category && (
+      {menuItemInViewport === category ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          style={{ marginRight: "7px" }}
-          className="text-orange-600 inline icon icon-tabler icon-tabler-point"
-          width="24"
-          height="24"
+          class="mr-2 text-orange-600 w-6 icon icon-tabler icon-tabler-arrow-narrow-right"
           viewBox="0 0 24 24"
           strokeWidth="3"
           stroke="currentColor"
@@ -29,10 +26,15 @@ const SidebarNav = ({ categories }) => {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path stroke="none" d="M0 0h24v24H0z" />
-          <circle cx="12" cy="12" r="4" />
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
         </svg>
+      ) : (
+        <div className="w-6 mr-2" />
       )}
+
       {category.charAt(0).toUpperCase() + category.slice(1)}
     </a>
   )
@@ -43,13 +45,13 @@ const SidebarNav = ({ categories }) => {
       <TearedEdge direction="up" />
 
       <div
-        className="p-6 pl-10 overflow-y-auto"
+        className="p-6 pl-2 overflow-y-auto"
         style={{
           backgroundImage: `url(${linedPaper})`,
           maxHeight: "calc(100vh - 7rem)",
         }}
       >
-        <h1 className="text-xl font-bold text-gray-700">Navigacija</h1>
+        <h1 className="ml-8 text-xl font-bold text-gray-700">Navigacija</h1>
 
         <div className="flex flex-col mt-6">
           {categories.map(({ category }) => (
