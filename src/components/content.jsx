@@ -26,8 +26,6 @@ const Content = ({ currentMenu, storeInfo }) => {
     if (!initialPageLoad) {
       const svgDistance = -500
 
-      gsap.to("body", { opacity: 1, duration: 2 })
-
       const tl = gsap.timeline({
         delay: 0.2,
         defaults: { duration: 1.2, ease: "elastic.inOut(0.4 , 0.8)" },

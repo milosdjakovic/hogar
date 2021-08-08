@@ -1,18 +1,12 @@
-import React, { useEffect } from "react"
+import React from "react"
 
 import { Link } from "gatsby"
 import SEO from "../components/seo"
-
-import gsap from "gsap"
 
 import HogarLogo from "../components/HogarLogo"
 import bricks from "../images/brick_wall.png"
 
 const NotFound = () => {
-  useEffect(() => {
-    gsap.to("body", { opacity: 1, duration: 2 })
-  }, [])
-
   return (
     <>
       {/* eslint-disable react/jsx-pascal-case */}
