@@ -4,14 +4,4 @@ body {
   background-attachment: fixed;
   font-family: "Inter", sans-serif;
   opacity: 0;
-  animation: 2s ease-out fade-in forwards;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }

@@ -1,12 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import { Link } from "gatsby"
 import SEO from "../components/seo"
 
 import HogarLogo from "../components/HogarLogo"
 import bricks from "../images/brick_wall.png"
+import Header from "../components/header"
 
 const NotFound = () => {
+  useEffect(() => {
+    document.body.style.opacity = 1
+  }, [])
+
   return (
     <>
       {/* eslint-disable react/jsx-pascal-case */}
@@ -19,7 +24,7 @@ const NotFound = () => {
           backgroundAttachment: "fixed",
         }}
       >
-        <HogarLogo className="w-full max-h-[40vh]" />
+        <HogarLogo className="w-full max-h-[30vh]" />
 
         <h1 className="mt-4 text-4xl sm:text-6xl font-patrick text-center leading-7 xs:leading-[3rem]">
           Strana nije pronađena

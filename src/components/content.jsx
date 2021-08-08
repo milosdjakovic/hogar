@@ -31,7 +31,7 @@ const Content = ({ currentMenu, storeInfo }) => {
         defaults: { duration: 1.2, ease: "elastic.inOut(0.4 , 0.8)" },
       })
 
-      tl.from("body", { opacity: 0 }, "-=1.5")
+      tl.to("body", { opacity: 1 }, "-=1.2")
       tl.from(".hero-text", { opacity: 0, y: svgDistance, stagger: 0.1 })
       tl.from("#hogar-text", { opacity: 0, y: svgDistance }, "-=1.5")
       tl.from(
