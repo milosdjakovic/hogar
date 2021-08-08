@@ -11,8 +11,8 @@ const SidebarNav = ({ categories }) => {
     <a
       href={`#${category}`}
       className={`${
-        menuItemInViewport === category && `font-bold`
-      } py-1 flex text-gray-700 hover:text-orange-600`}
+        menuItemInViewport === category ? `text-orange-600` : `text-gray-700 `
+      } py-1 flex hover:text-orange-600`}
       // style={menuItemInViewport === category ? { marginLeft: "-32px" } : {}}
     >
       {menuItemInViewport === category ? (
@@ -41,7 +41,7 @@ const SidebarNav = ({ categories }) => {
 
   // Contents
   return (
-    <div className="sticky hidden w-96 mr-6 top-16 md:block">
+    <div className="sticky hidden w-96 mr-6 top-16 md:block font-patrick text-2xl leading-6">
       <TearedEdge direction="up" />
 
       <div
@@ -51,7 +51,7 @@ const SidebarNav = ({ categories }) => {
           maxHeight: "calc(100vh - 7rem)",
         }}
       >
-        <h1 className="ml-8 text-xl font-bold text-gray-700">Navigacija</h1>
+        <h1 className="ml-8 text-3xl text-gray-700">Navigacija</h1>
 
         <div className="flex flex-col mt-6">
           {categories.map(({ category }) => (

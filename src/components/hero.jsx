@@ -4,15 +4,15 @@ import React from "react"
 import HogarLogo from "./HogarLogo"
 
 const Hero = ({ storneNo, phone, address, gmapLink }) => (
-  <div className="flex flex-col items-center py-4 my-4 sm:mt-8 sm:mb-10">
+  <div className="flex flex-col items-center py-4 my-4 sm:mt-8 sm:mb-10 font-patrick">
     <HogarLogo className="max-h-[44vh] w-full" />
 
-    <h1 className=" text-4xl sm:text-5xl  font-bold text-center uppercase hero-text font-patrick">
+    <h1 className=" text-4xl sm:text-5xl text-center uppercase hero-text">
       Poruči i pokupi
     </h1>
 
     {/* Phone number */}
-    <div className="flex items-center h-8 mt-4 hero-text">
+    <div className="flex items-center mt-4 hero-text">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -31,14 +31,14 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
 
       <a
         href={`tel:{phone}`}
-        className="ml-1 text-xl font-semibold hover:text-orange-600 hover:underline"
+        className="ml-1 text-3xl hover:text-orange-600 hover:underline"
       >
         {phone}
       </a>
     </div>
 
     {/* Location */}
-    <div className="flex items-center h-8 mt-2 hero-text">
+    <div className="flex items-center mt-2 hero-text">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -56,14 +56,11 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
         </svg>
       </div>
 
-      <a href={gmapLink} className="ml-2 group text-lg">
-        <span className="font-semibold group-hover:text-orange-600 group-hover:underline">
-          {address}
-        </span>
-        <span className="text-gray-700 group-hover:text-orange-600 group-hover:underline">
-          {" "}
-          Aleksinac
-        </span>
+      <a
+        href={gmapLink}
+        className="ml-2 text-3xl text-gray-600 hover:text-orange-600 hover:underline"
+      >
+        {address}
       </a>
     </div>
   </div>
