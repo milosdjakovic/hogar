@@ -26,9 +26,8 @@ const MenuItem = ({ children, title, products, className, style }) => {
     <div
       ref={ref}
       id={title}
-      className={`${className || ""} py-16 first:-mt-16`}
+      className={`${className || ""} py-16 first:pt-0`}
       style={{ ...style }}
-      // style={{ ...style, filter: "drop-shadow(4px 6px 4px #00000028)" }}
     >
       <TearedEdge direction="up" />
 
