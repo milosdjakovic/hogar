@@ -16,7 +16,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 xs:h-7 text-orange-600 icon icon-tabler icon-tabler-phone"
+          className="h-7 text-orange-600 icon icon-tabler icon-tabler-phone"
           viewBox="0 0 24 24"
           strokeWidth="2.6"
           stroke="currentColor"
@@ -31,7 +31,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
 
       <a
         href={`tel:{phone}`}
-        className="ml-2 text-xl xs:text-3xl hover:text-orange-600 hover:underline"
+        className="ml-2 text-3xl hover:text-orange-600 hover:underline"
       >
         {phone}
       </a>
@@ -42,7 +42,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 xs:h-7 text-orange-600 icon icon-tabler icon-tabler-map-pin"
+          className="h-7 text-orange-600 icon icon-tabler icon-tabler-map-pin"
           viewBox="0 0 24 24"
           strokeWidth="2.6"
           stroke="currentColor"
@@ -58,7 +58,7 @@ const Hero = ({ storneNo, phone, address, gmapLink }) => (
 
       <a
         href={gmapLink}
-        className="ml-2 text-xl xs:text-3xl text-gray-600 hover:text-orange-600 hover:underline"
+        className="ml-2 text-2xl xs:text-3xl text-gray-600 hover:text-orange-600 hover:underline"
       >
         {address}
       </a>
