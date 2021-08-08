@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors")
+
 module.exports = {
   mode: "jit",
   purge: {
@@ -7,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        "bottom-orange": "0 2px 0 rgba(221, 107, 32)",
+        "bottom-orange": `0 2px 0 ${colors.orange["600"]}`,
       },
       colors: {
         orange: {
@@ -31,8 +33,8 @@ module.exports = {
       xl: "1280px",
     },
     inset: {
-      "0": 0,
-      "16": "4rem",
+      0: 0,
+      16: "4rem",
     },
     fontFamily: {
       patrick: "Patrick Hand SC",
