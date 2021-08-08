@@ -11,7 +11,7 @@ const SidebarNav = ({ categories }) => {
     <a
       href={`#${category}`}
       className={`${
-        menuItemInViewport === category ? `text-orange-600` : `text-gray-700`
+        menuItemInViewport === category ? `text-orange-600` : `text-gray-600`
       } py-1 flex hover:text-orange-600 flex-grow-0`}
     >
       {menuItemInViewport === category ? (
