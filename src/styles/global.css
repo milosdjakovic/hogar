@@ -3,7 +3,8 @@
 body {
   background-attachment: fixed;
   font-family: "Inter", sans-serif;
-  animation: 2s ease-out fade-in;
+  opacity: 0;
+  animation: 2s ease-out fade-in forwards;
 }
 
 @keyframes fade-in {
