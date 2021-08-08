@@ -363,7 +363,157 @@
 			},
 			{
 				"name": "punjeni ćevapi",
-				"details": "230 g - 260"
+				"details": "230 g - 260 din"
+			}
+		]
+	},
+	{
+		"category": "slatka palačinka",
+		"products": [
+			{
+				"name": "Stara Škola",
+				"ingredients": "šećer, orasi.",
+				"details": "90 din"
+			},
+			{
+				"name": "babina",
+				"ingredients": "džem kajsija / mešano voće.",
+				"details": "90 din"
+			},
+			{
+				"name": "klasika",
+				"ingredients": "krem.",
+				"details": "90 din"
+			},
+			{
+				"name": "nova škola",
+				"ingredients": "krem, plazma.",
+				"details": "100 din"
+			},
+			{
+				"name": "afrodizijak",
+				"ingredients": "med, orasi.",
+				"details": "110 din"
+			},
+			{
+				"name": "bebica",
+				"ingredients": "krem, mleko, plazma.",
+				"details": "120 din"
+			},
+			{
+				"name": "sigurica",
+				"ingredients": "krem, plazma, banana.",
+				"details": "130 din"
+			},
+			{
+				"name": "erik-bananamen",
+				"ingredients": "krem, mleko, plazma, banana.",
+				"details": "140 din"
+			},
+			{
+				"name": "nutela",
+				"ingredients": "nutela.",
+				"details": "140 din"
+			},
+			{
+				"name": "budi spreman",
+				"ingredients": "nutela, plazma.",
+				"details": "150 din"
+			},
+			{
+				"name": "kad si gladan",
+				"ingredients": "nutela, mleko, plazma.",
+				"details": "160 din"
+			},
+			{
+				"name": "kad si svoj",
+				"ingredients": "nutela, mleko-plazma, banana.",
+				"details": "160 din"
+			},
+			{
+				"name": "naša industrija",
+				"ingredients": "bela čokolada, lešnik, kokos, šlag.",
+				"details": "180 din"
+			},
+			{
+				"name": "moskva",
+				"ingredients": "bela čokolada, lešnik, ananas, višnja, šlag.",
+				"details": "200 din"
+			},
+			{
+				"name": "Dodaci",
+				"ingredients": "orasi, kokos, plazma, suvo grožđe, lešnik, šlag.",
+				"details": "30 din"
+			}
+		]
+	},
+	{
+		"category": "slana palačinka",
+		"products": [
+			{
+				"name": "proleterska",
+				"ingredients": "šunka, kačkavalj, pavlaka.",
+				"details": "150 din"
+			},
+			{
+				"name": "đačka",
+				"ingredients": "pečenica, kačkavalj, pavlaka.",
+				"details": "160 din"
+			},
+			{
+				"name": "direktorska",
+				"ingredients": "kulan, kačkavalj, pavlaka.",
+				"details": "170 din"
+			},
+			{
+				"name": "haos",
+				"ingredients": "šunka, pečenica, kulen, kačkavalj, pavlaka.",
+				"details": "180 din"
+			},
+			{
+				"name": "ministarska",
+				"ingredients": "pršuta, kačkavalj, pavlaka.",
+				"details": "200 din"
+			},
+			{
+				"name": "Dodaci",
+				"ingredients": "masline, šampinjoni, kiseli krastavčići, francuska salata, pileća salata.",
+				"details": "30 din"
+			}
+		]
+	},
+	{
+		"category": "pohovana palačinka",
+		"products": [
+			{
+				"name": "broj jedan",
+				"ingredients": "šunka, kačkavalj, pavlaka.",
+				"details": "220 din"
+			},
+			{
+				"name": "džoker",
+				"ingredients": "pečenica, kačkavalj, pavlaka.",
+				"details": "230 din"
+			},
+			{
+				"name": "tajna operacija",
+				"ingredients": "kulen, kačkavalj, pavlaka.",
+				"details": "240 din"
+			},
+			{
+				"name": "reži me",
+				"ingredients": "šunka, pečenica, kulen, kačkavalj, pavlaka.",
+				"details": "250 din"
+			},
+			{
+				"name": "mata Hari",
+				"ingredients": "pršuta, kačkavalj, pavlaka",
+				"details": "270 din"
+			},
+			{
+				"name": "Dodaci",
+				"ingredients": "masline, šampinjoni, kiseli krastavčići, francuska salata, pileća salata.",
+				"details": "30 din"
 			}
 		]
 	}
