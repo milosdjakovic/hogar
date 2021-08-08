@@ -25,22 +25,22 @@ const NotFound = () => {
       >
         <HogarLogo className="w-full max-h-[30vh]" />
 
-        <h1 className="mt-4 text-4xl sm:text-6xl font-patrick text-center leading-7 xs:leading-[3rem]">
+        <h1 className="sm:mt-4 text-4xl sm:text-6xl font-patrick text-center leading-7 xs:leading-[3rem]">
           Strana nije pronađena
         </h1>
 
-        <div className="text-3xl mt-2 flex whitespace-nowrap flex-col items-center sm:flex-row sm:items-baseline gap-4 font-patrick">
+        <div className="text-3xl mt-4 sm:mt-6 flex whitespace-nowrap flex-col items-center sm:flex-row sm:items-baseline gap-4 font-patrick">
           <p className="text-gray-700">Posetite</p>
           <Link
             to="/"
-            className="hover:bg-orange-500 shadow-orange bg-orange-600 text-white rounded px-4 py-2 font-bold"
+            className="hover:bg-orange-500 shadow-orange bg-orange-600 text-white rounded px-4 py-2"
           >
             Hogar 1
           </Link>
           <p className="text-gray-600">ili</p>
           <Link
             to="/2/"
-            className="hover:bg-orange-500 shadow-orange bg-orange-600 text-white rounded px-4 py-2 font-bold"
+            className="hover:bg-orange-500 shadow-orange bg-orange-600 text-white rounded px-4 py-2"
           >
             Hogar 2
           </Link>
