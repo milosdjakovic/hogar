@@ -5,12 +5,12 @@
 			{
 				"name": "Standard",
 				"ingredients": "roštiljsko meso, lepinja.",
-				"details": "Mala (150 g) - 120 din\nSrednja (200g) - 160 din\nVelika (300g) - 270 din"
+				"details": "Mala (150 g) - 130 din\nSrednja (200g) - 170 din\nVelika (300g) - 280 din"
 			},
 			{
 				"name": "gurmanska",
 				"ingredients": "roštiljsko meso, kačkavalj, lepinja.",
-				"details": "Mala (150 g) - 150 din\nSrednja (200g) - 190 din\nVelika (300g) - 260 din"
+				"details": "Mala (150 g) - 160 din\nSrednja (200g) - 200 din\nVelika (300g) - 270 din"
 			}
 		]
 	},
@@ -20,41 +20,41 @@
 			{
 				"name": "pljeskavica",
 				"ingredients": "roštiljsko meso.",
-				"details": "1 kg - 600 din"
+				"details": "1 kg - 700 din"
 			},
 			{
 				"name": "gurmanska",
 				"ingredients": "roštiljsko meso, slanina, kačkavalj.",
-				"details": "1 kg - 750 din"
+				"details": "1 kg - 850 din"
 			},
 			{
 				"name": "ćevapi",
 				"ingredients": "roštiljsko meso.",
-				"details": "1 kg - 600 din"
+				"details": "1 kg - 700 din"
 			},
 			{
 				"name": "uštipci",
 				"ingredients": "roštiljsko meso, slanina, kačkavalj.",
-				"details": "1 kg - 750 din"
+				"details": "1 kg - 850 din"
 			},
 			{
 				"name": "kobasica",
 				"ingredients": "roštiljska kobasica.",
-				"details": "1 kg - 600 din"
+				"details": "1 kg - 650 din"
 			},
 			{
 				"name": "pileći file",
 				"ingredients": "pileće belo meso.",
-				"details": "1 kg - 850 din"
+				"details": "1 kg - 1000 din"
 			},
 			{
 				"name": "pileći batak",
 				"ingredients": "batak bez kostiju.",
-				"details": "1 kg - 800 din"
+				"details": "1 kg - 900 din"
 			},
 			{
 				"name": "vešalica",
-				"details": "1 kg - 950 din"
+				"details": "1 kg - 1100 din"
 			}
 		]
 	},
@@ -64,12 +64,12 @@
 			{
 				"name": "običan",
 				"ingredients": "batak bez kostiju, lepinja.",
-				"details": "150 g - 190 din"
+				"details": "150 g - 200 din"
 			},
 			{
 				"name": "u slanini",
 				"ingredients": "batak bez kostiju, slanina, lepinja.",
-				"details": "180 g - 220 din"
+				"details": "180 g - 230 din"
 			},
 			{
 				"name": "u skrami",
@@ -84,17 +84,17 @@
 			{
 				"name": "običan",
 				"ingredients": "pileće belo meso, lepinja.",
-				"details": "200 g - 220 din"
+				"details": "200 g - 230 din"
 			},
 			{
 				"name": "u slanini",
 				"ingredients": "pileće belo meso, slanina, lepinja.",
-				"details": "180 g - 220 din"
+				"details": "180 g - 230 din"
 			},
 			{
 				"name": "u skrami",
 				"ingredients": "pileće belo meso, kačkavalj, skrama, lepinja.",
-				"details": "200 g - 220 din"
+				"details": "200 g - 230 din"
 			}
 		]
 	},
@@ -104,12 +104,12 @@
 			{
 				"name": "bela",
 				"ingredients": "svinjski file ili karé, lepinja.",
-				"details": "200 g - 220 din"
+				"details": "200 g - 230 din"
 			},
 			{
 				"name": "dimljena",
 				"ingredients": "dimljeni svinjski file ili karé, lepinja.",
-				"details": "200 g - 230 din"
+				"details": "200 g - 240 din"
 			},
 			{
 				"name": "filovana",
@@ -144,17 +144,17 @@
 			{
 				"name": "pet komada",
 				"ingredients": "roštiljsko meso, lepinja.",
-				"details": "200 g - 190 din"
+				"details": "200 g - 170 din"
 			},
 			{
 				"name": "hogar",
 				"ingredients": "roštiljsko meso, luk, papričica, slanina, lepinja.",
-				"details": "180 g - 190 din"
+				"details": "180 g - 200 din"
 			},
 			{
 				"name": "punjeni",
 				"ingredients": "roštiljsko meso, kačkavalj, slanina, lepinja.",
-				"details": "200 g - 190 din"
+				"details": "200 g - 200 din"
 			}
 		]
 	},
@@ -194,7 +194,7 @@
 			{
 				"name": "hogar",
 				"ingredients": "lepinja, pečenica, šunka, čajna, jaje, pavlaka, pečurke, kačkavalj, masline, prilozi po izboru.",
-				"details": "L - 250 din\nXL - 500 din\nXXL - 750 din"
+				"details": "L - 270 din\nXL - 540 din\nXXL - 790 din"
 			},
 			{
 				"name": "posni",
@@ -232,7 +232,7 @@
 			{
 				"name": "šunka",
 				"ingredients": "lepinja, suvi vrat, pečenica, šunka, pavlaka, pečurke, kačkavalj, masline.",
-				"details": "280 din"
+				"details": "300 din"
 			}
 		]
 	},
@@ -242,32 +242,32 @@
 			{
 				"name": "kaprićoza",
 				"ingredients": "testo, paradajz pelat, šunka, kačkavalj, pečurke, masline, origano.",
-				"details": "Standard - 300 din\nSrednja - 600 din\nPorodična - 810 din"
+				"details": "Standard - 320 din\nSrednja - 640 din\nPorodična - 900 din"
 			},
 			{
 				"name": "hogar",
 				"ingredients": "testo, paradajz pelat, šunka, slanina, suvi vrat, čajna, jaje, pečurke, kačkavalj, masline, origano.",
-				"details": "Srednja — 650 din\nPorodična - 1100 din"
+				"details": "Srednja — 700 din\nPorodična - 1200 din"
 			},
 			{
 				"name": "kulen",
 				"ingredients": "testo, paradajz pelat, kulen, čajna, jaje, kačkavalj, pečurke, masline, origano.",
-				"details": "Srednja - 650 din\nPorodična — 1100 din"
+				"details": "Srednja - 700 din\nPorodična — 1200 din"
 			},
 			{
 				"name": "posna",
 				"ingredients": "testo, paradajz pelat, tunjevina, pečurke, masline, biljni kačkavalj, kukuruz šećerac,  origano.",
-				"details": "Standard - 300 din\nSrednja - 600 din\nPorodična - 1100din"
+				"details": "Standard - 320 din\nSrednja - 640 din\nPorodična - 1100din"
 			},
 			{
 				"name": "vegetarijana",
 				"ingredients": "testo, paradajz pelat, pečurke, masline, meksički pasulj, kukuruz šećerac,  origano.",
-				"details": "250 din"
+				"details": "270 din"
 			},
 			{
 				"name": "margarita",
 				"ingredients": "testo, paradajz pelat, parmezan, kačkavalj, bosiljak.",
-				"details": "250 din"
+				"details": "270 din"
 			}
 		]
 	}
