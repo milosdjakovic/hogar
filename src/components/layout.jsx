@@ -13,6 +13,7 @@ import MenuItem from "./menuItem"
 import GoogleMap from "./googleMap"
 import Footer from "./footer"
 import BottomPageActions from "./bottomPageActions"
+import Disclamer from "./disclamer"
 
 const Layout = ({ currentMenu, storeInfo }) => {
   const initialPageLoad = useSelector(state => state.initialPageLoad)
@@ -92,6 +93,8 @@ const Layout = ({ currentMenu, storeInfo }) => {
                   key={`${category}_${i}`}
                 />
               ))}
+
+              <Disclamer />
 
               <MenuItem title="Kako do nas?" style={{ marginBottom: "90%" }}>
                 <GoogleMap src={storeInfo.gmapIframeLink} />
