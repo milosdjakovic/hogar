@@ -99,9 +99,7 @@ const Layout = ({ currentMenu, storeInfo }) => {
 
               <Disclamer />
 
-              <MenuItem title="Kako do nas?" style={{ marginBottom: "90%" }}>
-                <GoogleMap src={storeInfo.gmapIframeLink} />
-              </MenuItem>
+              <GoogleMap src={storeInfo.gmapIframeLink} />
 
               <Footer />
             </div>
