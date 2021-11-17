@@ -5,7 +5,7 @@ import gsap from "gsap"
 
 import bricks from "../images/brick_wall.png"
 
-import Header from "./header"
+import Header from "./header/header"
 import MobileMenu from "./mobileMenu"
 import Hero from "./hero"
 import SidebarNav from "./sidebarNav"
