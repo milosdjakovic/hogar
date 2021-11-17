@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"
 import gsap from "gsap"
 
-const ScrollingTextDisclamer = () => {
+const ScrollingText = () => {
   const disclaimerTextRef = useRef()
   const xOffset = 160
 
@@ -56,4 +56,4 @@ const ScrollingTextDisclamer = () => {
   )
 }
 
-export default ScrollingTextDisclamer
+export default ScrollingText

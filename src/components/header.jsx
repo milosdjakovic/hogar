@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { useDispatch, useSelector } from "react-redux"
-import ScrollingTextDisclamer from "./scrollingTextDisclamer"
+import ScrollingText from "./scrollingText"
 
 const Header = () => {
   const mobileMenuVisible = useSelector(state => state.mobileMenuVisible)
@@ -82,7 +82,7 @@ const Header = () => {
         </button>
       </div>
 
-      <ScrollingTextDisclamer />
+      <ScrollingText />
     </header>
   )
 }
