@@ -17,7 +17,7 @@ const SidebarNav = ({ categories }) => {
       {menuItemInViewport === category ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mr-2 text-orange-600 w-6 h-6 icon icon-tabler icon-tabler-arrow-narrow-right"
+          className="mr-2 text-orange-600 w-6 h-6 icon icon-tabler icon-tabler-arrow-narrow-right"
           viewBox="0 0 24 24"
           strokeWidth="3"
           stroke="currentColor"
