@@ -20,28 +20,31 @@ const Layout = ({ currentMenu, storeInfo }) => {
 
   const dispatch = useDispatch()
 
+  function pageLoadAnimation() {
+    const svgDistance = -500
+
+    const tl = gsap.timeline({
+      delay: 0.2,
+      defaults: { duration: 1.2, ease: "elastic.inOut(0.4 , 0.8)" },
+    })
+
+    tl.to("body", { opacity: 1 }, "-=1.2")
+    tl.from(".hero-text", { opacity: 0, y: svgDistance, stagger: 0.1 })
+    tl.from("#hogar-text", { opacity: 0, y: svgDistance }, "-=1.5")
+    tl.from(
+      ".fall-down",
+      { opacity: 0, y: svgDistance, stagger: 0.18 },
+      "-=1.1"
+    )
+    tl.from("#header", { opacity: 0, y: -20 }, "-=1")
+    tl.from("#main-content", { opacity: 0, y: 300 }, "-=1.3")
+    tl.from("#call-fixed-button", { opacity: 0, x: -80 }, "-=1.3")
+    tl.from("#scroll-fixed-button", { opacity: 0, x: 80 }, "-=1.3")
+  }
+
   useEffect(() => {
     if (!initialPageLoad) {
-      const svgDistance = -500
-
-      const tl = gsap.timeline({
-        delay: 0.2,
-        defaults: { duration: 1.2, ease: "elastic.inOut(0.4 , 0.8)" },
-      })
-
-      tl.to("body", { opacity: 1 }, "-=1.2")
-      tl.from(".hero-text", { opacity: 0, y: svgDistance, stagger: 0.1 })
-      tl.from("#hogar-text", { opacity: 0, y: svgDistance }, "-=1.5")
-      tl.from(
-        ".fall-down",
-        { opacity: 0, y: svgDistance, stagger: 0.18 },
-        "-=1.1"
-      )
-      tl.from("#header", { opacity: 0, y: -20 }, "-=1")
-      tl.from("#main-content", { opacity: 0, y: 300 }, "-=1.3")
-      tl.from("#call-fixed-button", { opacity: 0, x: -80 }, "-=1.3")
-      tl.from("#scroll-fixed-button", { opacity: 0, x: 80 }, "-=1.3")
-
+      pageLoadAnimation()
       dispatch({ type: "SET_INITIAL_PAGE_LOADED", payload: true })
     }
   }, [dispatch, initialPageLoad])
